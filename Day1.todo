@@ -1,0 +1,40 @@
+Javascript:
+☐ Recap
+☐ Why Javascript?
+☐ Why now?
+
+Node:
+☐ JS at server side
+☐ V8
+☐ Blocking Vs Non-Blocking
+☐ Event loop
+☐ Node ecosystem
+
+Installations:
+☐ Node
+☐ NPM
+☐ Typescript
+☐ Angular
+
+Typescript:
+☐ JS quirks
+☐ What does 'this' refer to?
+☐ Variable declarations
+    ☐ var
+    ☐ let
+    ☐ const
+☐ Basic types
+    boolean, number, string, Array<>, Tuple, enum, any, void, null, undefined
+
+RESTful APIs:
+☐ A brief overview of HTTP
+    ☐ HTTP verbs: GET, PUT, POST, DELETE, HEAD, PATCH
+    ☐ Status codes: 1xx, 2xx, 3xx, 4xx, 5xx
+    Refer http://www.restapitutorial.com/httpstatuscodes.html
+☐ What is REST?
+☐ Rest maturity levels
+    ☐ Level 0 - The swamp of pox
+    ☐ Level 1 - Resources
+    ☐ Level 2 - HTTP verbs
+    ☐ Level 3 - Hypermedia controls
+    Refer https://martinfowler.com/articles/richardsonMaturityModel.html
