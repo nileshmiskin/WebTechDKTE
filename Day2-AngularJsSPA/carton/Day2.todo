@@ -1,0 +1,31 @@
+Single page applications:
+    ☐ Why does one need an SPA
+    ☐ How do I create one?
+
+Angular:
+    ☐ Introduction
+    ☐ Installation
+    ☐ First angular application
+    ☐ Anatomy of an angular application
+    ☐ What all stuff is angular app made of?
+
+Angular building blocks:
+    ☐ Component
+    ☐ Lifecycle method
+    ☐ Templates
+    ☐ Directives
+    ☐ Event binding
+    ☐ Property binding
+    ☐ Service
+    ☐ Routing
+    ng generate module app-routing --flat --module=app
+    --flat puts the file in src/app instead of its own folder.
+    --module=app tells the CLI to register it in the imports array of the AppModule.
+        ☐ Define routes: Routes
+        ☐ imports RouterModule.forRoot(routes)
+        ☐ exports RouterModule
+        ☐ router-outlet
+        ☐ routerLink for nav anchors
+    ☐ HTTP
+    - HttpClient from '@angular/common/http'
+    - Add HttpClientModule to AppModule imports

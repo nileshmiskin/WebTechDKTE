@@ -1,0 +1,13 @@
+<app-selected-car [car]="selectedCar"></app-selected-car>
+<ul>
+  <li *ngFor='let car of cars'>
+    <span [class]="car == selectedCar ? 'selected' : ''" (click)="selectCar(car)">{{car.make}}-{{car.model}}</span>
+  </li>
+</ul>
+<hr/>
+<div>
+  <span>Enter new car details</span><br/>
+  <span>Make: <input type="text" #newMake/></span><br/>
+  <span>Model: <input type="text" #newModel/></span><br/> 
+  <span><button (click)="addCar(newMake.value, newModel.value)">Add car</button></span>
+</div>
